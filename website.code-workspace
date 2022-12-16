@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../USBBackup/CSC124FinalProjectPGC/htmlPGC"
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"minimap.background": "#00000000",
+			"scrollbar.shadow": "#00000000"
+		},
+		"editor.tabSize": 2,
+		"liveServer.settings.multiRootWorkspaceName": "website"
+	}
+}
