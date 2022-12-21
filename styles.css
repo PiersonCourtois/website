@@ -138,9 +138,10 @@ div.space {
 .link {
   position: relative;
   background-color: white;
-  border: 3px solid #6B5E62;
-  box-shadow: 0px 5px #A0949C, 0px 2px 6px black;
-  border-radius: 20px;
+  box-shadow: 0px 2px 6px black;
+  border-radius: 50%;
+  outline: 1px solid #6B5E62;
+  background: transparent;
   top: 10px;
   margin-bottom: 10px;
 }
@@ -217,8 +218,8 @@ div.space {
 .highlight a {
   text-decoration: none;
   font-weight: bold;
-  color: #6B5E62;
-  text-shadow: 0px 0px 6px #71B6FF;
+  color: white;
+  text-shadow: 0px 0px 5px #1700AB;
 }
 
 .highlight a:hover {
