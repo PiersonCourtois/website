@@ -1,0 +1,51 @@
+#projects {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  
+  background-color: red;
+}
+
+.left {
+  width: 65%;
+  float: left;
+}
+
+.right {
+  position: relative;
+  width: 35%;
+  line-height: 150px;
+  height: 150px;
+  float: right;
+  
+}
+
+h1 {
+  font-size: 2.3em;
+  padding: 20px;
+}
+
+p {
+  width: 50%;
+  font-size: 1em;
+  padding-bottom: 20px;
+
+}
+
+@keyframes button {
+  from {background-color: blue;}
+  to {background-color: darkblue;}
+}
+
+.githubbutton {
+  text-decoration: none;
+  font-size: 2em;
+  background-color: blue;
+}
+
+.githubbutton:hover {
+  animation-name: button;
+  animation-duration: .3s;
+  background-color: white;
+  
+}
