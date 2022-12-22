@@ -6,30 +6,33 @@
 }
 
 .left {
-  width: 60%;
+  width:65%;
   float: left;
   height: 200px;
+  
 }
 
 .right {
   position: relative;
-  width: 40%;
+  width: 35%;
   line-height: 150px;
   height: 200px;
   float: right;
   
 }
 
+
 h1 {
+  position: relative;
   font-size: 2.3em;
-  padding: 20px;
+  left: 70px;
+  padding: 40px 20px 10px 20px;
 }
 
 p {
-  width: 50%;
-  font-size: 1em;
-  padding-bottom: 20px;
-
+  width: 70%;
+  padding: 20px;
+  text-indent: 20px;
 }
 
 @keyframes button {
@@ -44,6 +47,7 @@ p {
   text-decoration: none;
   box-shadow: -1px 2px 7px black;
   padding: 10px 40px;
+  top: 30px;
   border-radius: 15px;
   font-size: 2em;
   background-color: #6B5E62
@@ -72,7 +76,10 @@ p {
 }
 
 .project-node {
+  position: relative;
   height: 200px;
+  border-bottom: 2px dashed #A0949C;
+  border-top: 2px dashed #A0949C;
   
 }
 
