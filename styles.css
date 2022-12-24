@@ -215,6 +215,7 @@ div.space {
 }
 
 .highlight a {
+  position: relative;
   text-decoration: none;
   font-weight: bold;
   color: white;
@@ -222,6 +223,10 @@ div.space {
 }
 
 .highlight a:hover {
+  bottom: 3px;
+  left: 3px;
+  animation-name: button;
+  animation-duration: .15s;
   font-weight: normal;
   color: #D5CAD6;
   text-shadow: 0px 0px 6px black;
@@ -236,4 +241,67 @@ footer {
 footer p {
   margin: auto;
   text-align: center;
+}
+
+@keyframes button {
+  from {color: white; bottom: 0px; left: 0px;}
+  to {color:#D5CAD6; bottom: 3px; left: 3px;}
+}
+
+#about-container {
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  background-color: #E2DDE3;
+}
+
+#linkedin {
+  position: relative;
+  float: right;
+  bottom: 200px;
+  width: 25%;
+  border-radius: 10px;
+}
+
+#about-container h1 {
+  text-align: center;
+  font-size: 2em;
+  padding: 30px;
+}
+
+#about-text {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+#about-info {
+  width: 60%;
+  padding: 20px;
+  clear: left;
+}
+
+#resume {
+  position: relative;
+  left: 400px;
+  font-weight: bold;
+  top: 50px;
+  text-decoration: none;
+  color: black;
+  background-color: #BBAFB9;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 2px black;
+}
+
+#resume:hover {
+  animation-name: button2;
+  animation-duration: .3s;
+  top: 47px;
+  background-color:#D5CAD6;
+  left: 403px;
+}
+
+@keyframes button2 {
+  from {background-color: #BBAFB9; top: 50px; left: 400px;}
+  to {background-color:#D5CAD6; top: 47px; left: 403px;}
 }

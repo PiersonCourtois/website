@@ -8,7 +8,7 @@ let numProjects = 0;
 // Adds project to page. Gives name, description, and github link. 
 function addProject(name, description, link) {
   var ele = document.getElementById("lists");
-  ele.innerHTML += "<div class='project-node'><div class='left'><h1>" + name + "</h1><p>" + description + "</p></div><div class='right'><a href=" + link + " class='githubbutton'><img src='photos/github.png'alt='github'/>Github</a></div></div>";
+  ele.innerHTML += "<div class='project-node'><div class='left'><h1>" + name + "</h1><p>" + description + "</p></div><div class='right'><a href=" + link + " class='githubbutton' target='_blank'><img src='photos/github.png'alt='github'/>Github</a></div></div>";
   numProjects++;
 }
 

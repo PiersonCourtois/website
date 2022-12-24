@@ -3,5 +3,10 @@
     "name": "This website!",
     "description": "My personal website was developed with HTML, CSS, and JavaScript. This is the first website I made outside of school and I hope to improve upon it over the years.",
     "link": "https://github.com/PiersonCourtois/website"
+  },
+  {
+    "name": "More to come...",
+    "description": "I'm currently working on a few more projects that will be added here when finished. Check out my GitHub to see what I am currently working on!",
+    "link": "https://github.com/PiersonCourtois"
   }
 ]
