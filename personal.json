@@ -5,6 +5,11 @@
     "link": "https://github.com/PiersonCourtois/website"
   },
   {
+    "name": "NuzRun.com",
+    "description": "This is a Pokemon Scarlet/Violet nuzlocke helper. Due to how the new games deal with random encounters, it is difficult to be able to have a random first encounter while allowing a player to be able to get all Pokemon in that area. This app fixes that by randomly selecting a Pokemon from the available pool for a certain area. I used React to make this project. It was my first time using React, so there was a bit of a learning curve for me. However, I was able to overcome those challenges and make something that I am proud of. ",
+    "link": "https://github.com/PiersonCourtois/pokemon-nuzlocke"
+  }
+  {
     "name": "More to come...",
     "description": "I'm currently working on a few more projects that will be added here when finished. Check out my GitHub to see what I am currently working on!",
     "link": "https://github.com/PiersonCourtois"
