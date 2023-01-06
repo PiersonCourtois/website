@@ -3,5 +3,10 @@
     "name": "Smokin' BBQ",
     "description": "This was a website that I made for a final project for my web programming course. The project took a bit over a week to finish. This project taught me skills such as time management, prioritization, and working with a large project. You can check out the website <a href='https://piersoncourtois.github.io/smokin-bbq/pgc_home.html' target='_blank'>here!</a>",
     "link": "https://github.com/PiersonCourtois/smokin-bbq"
+  },
+  {
+    "name": "School Assignments",
+    "description": "Currently in my school courses, I have worked with data structures, algorithms, system programming, and more. None of these assignments were big enough to warrant posting, but I may make them available at a later date. ",
+    "link": "https://github.com/PiersonCourtois"
   }
 ]
