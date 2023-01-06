@@ -305,3 +305,12 @@ footer p {
   from {background-color: #BBAFB9; top: 50px; left: 400px;}
   to {background-color:#D5CAD6; top: 47px; left: 403px;}
 }
+
+.left {
+  max-height: 200px;
+}
+
+.left p {
+  overflow-y: scroll;
+  max-height: 120px;
+}
