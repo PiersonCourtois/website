@@ -155,3 +155,41 @@ p {
 .switch-check + .switch-label .switch-span {
   position: relative;
 }
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  #projects {
+    width: 100%;
+  }
+
+  .left {
+    max-height: 20vh;
+  }
+
+  .right {
+    max-height: 20vh;
+  }
+
+  .project-node {
+    height: 20vh;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .left p {
+    font-size: 2em;
+    line-height: 35px;
+    max-height: 15vh;
+  }
+
+  .githubbutton {
+    top: 5vh;
+    font-size: 4em;
+    outline: 5px solid #A0949C;
+  }
+
+  .githubbutton img {
+    display: none;
+  }
+}
